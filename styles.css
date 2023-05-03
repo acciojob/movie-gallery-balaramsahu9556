@@ -2,10 +2,7 @@
 /* Your CSS Code here. */
 .container-fluid{
 	display:grid;
+	grid-template-columns: repeat(12,50px);
+	grid-gap: 10px 10px;
 }
-.col-sm-1{
-grid-column: 1/ 2;
-}
-.col-sm-2{
-grid-column: 3/span 2;
-}
+
