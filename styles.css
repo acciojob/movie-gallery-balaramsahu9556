@@ -2,9 +2,6 @@
 /* Your CSS Code here. */
 .container-fluid{
 	display:grid;
-	grid-template-columns: repeat(12,50px);
-	grid-template-rows: 50px, 50px 50px;
-	grid-gap: 10px 10px;
 }
 .col-sm-1{
 grid-column: 1/ 2;
